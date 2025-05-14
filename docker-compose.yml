@@ -21,7 +21,7 @@ services:
       - fin_internal
       
   demo-api:
-    build: ./DemoEventDriven
+    build: ./PracticaRabbitMQ
     container_name: demo
     restart: always
     depends_on:
