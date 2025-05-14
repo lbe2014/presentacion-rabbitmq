@@ -1,0 +1,28 @@
+# Archivos de configuración de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Salidas de compilación
+**/bin/
+**/obj/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+**/tmp/
+**/*.tmp
+
+# Archivos de Rider / JetBrains
+.idea/
+
+# Archivos de entorno
+*.env
+docker-compose.override.yml
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
